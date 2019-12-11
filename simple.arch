@@ -1,0 +1,24 @@
+int a = 5 * (3 + 3) / 3;
+print(a);
+string c;
+c = "ha";
+if (c == "ho" || a <= 30 && a >= -10) {
+    print("true");
+}
+string b = "hi";
+c = b;
+print(c);
+if (a > 10) {
+    print("more");
+} else {
+    print("less or equal");
+}
+while (a > 0) {
+    a = a - 1;
+    print(a);
+}
+int d = 10000000;
+while (d > 0){
+    d = d - 1;
+}
+print(d);
